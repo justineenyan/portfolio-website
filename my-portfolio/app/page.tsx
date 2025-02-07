@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -19,8 +19,9 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Hi there, I am Justine a CS student
+            Passionate about creating dynamic and responsive web applications using modern technologies.
+            Always eager to learn and grow in the field of web development.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
