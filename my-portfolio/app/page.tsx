@@ -58,7 +58,7 @@ export default function Home() {
 
         <Link
           href="/my-projects"
-          className="rounded-[20px] group bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] group bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
         >
           My projects
         </Link>
@@ -76,6 +76,7 @@ export default function Home() {
           alt="horse"
           height={300}
           width={300}
+          unoptimized
           className="absolute right-55 top-40"
         />
 
@@ -97,6 +98,7 @@ export default function Home() {
         alt="stars"
         height={300}
         width={300}
+        unoptimized
         className="absolute top-0 left-0 z-[10]"
       />
     </main>
